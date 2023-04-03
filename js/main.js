@@ -49,7 +49,7 @@ let circularprogressss = document.querySelector(".circular-progress3"),
 
 
 let progressStartValueee = 0,
-    progressEndtValueee = 40;
+    progressEndtValueee = 50;
 speed = 80;
 
 
@@ -83,6 +83,28 @@ let progresssss = setInterval(() => {
 
     if (progressStartValueeee == progressEndtValueeee) {
         clearInterval(progresssss)
+    }
+}, speed);
+
+// //////////////django
+
+let circularprogressssss = document.querySelector(".circular-progress5"),
+    progressValueeeee = document.querySelector(".progress-value5");
+
+
+let progressStartValueeeee = 0,
+    progressEndtValueeeee = 90;
+speed = 80;
+
+
+let progressssss = setInterval(() => {
+    progressStartValueeeee++;
+
+    progressValueeeee.textContent = `${progressStartValueeeee}%`
+    circularprogressssss.style.background = `conic-gradient(green ${progressStartValueeeee * 3.6}deg, #ededed 0deg)`
+
+    if (progressStartValueeeee == progressEndtValueeeee) {
+        clearInterval(progressssss)
     }
 }, speed);
 
