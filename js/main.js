@@ -64,14 +64,14 @@ let progressss = setInterval(() => {
     }
 }, speed);
 
-// //////////////pytion
+// //////////////python
 
 let circularprogresssss = document.querySelector(".circular-progress4"),
     progressValueeee = document.querySelector(".progress-value4");
 
 
 let progressStartValueeee = 0,
-    progressEndtValueeee = 30;
+    progressEndtValueeee = 80;
 speed = 80;
 
 
