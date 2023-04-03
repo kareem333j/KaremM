@@ -575,6 +575,34 @@ a {
     color: orange;
 }
 
+/* django */
+.about-content .circular-progress5 {
+    border-radius: 50%;
+    position: relative;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    background: conic-gradient(green 3.6deg, #ededed 0deg);
+}
+
+.about-content .circular-progress5::before {
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.about-content .circular-progress5 .progress-value5 {
+    position: relative;
+    font-size: 1.8em;
+    font-weight: 600;
+    color: green;
+}
+
 .option-phone {
     display: none;
 }
